@@ -52,8 +52,8 @@ gulp.task('serve',function(){
 		function(err,bs){
 			 console.log(bs.options.getIn(["urls", "local"]));
 	});
-	gulp.watch('src/styles/*.less',['style'])
-	gulp.watch('src/scripts/*.js',['script'])
-	gulp.watch('src/images/*.*',['image'])
-	gulp.watch('src/*.html',['html'])
+	// gulp.watch('src/styles/*.less',['style'])
+	// gulp.watch('src/scripts/*.js',['script'])
+	// gulp.watch('src/images/*.*',['image'])
+	// gulp.watch('src/*.html',['html'])
 })
